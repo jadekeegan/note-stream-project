@@ -2,7 +2,7 @@
 //  NoteStreamProjectApp.swift
 //  NoteStreamProject
 //
-//  Created by Ajay Gandecha on 10/3/25.
+//  Created by Jade Keegan and Ajay Gandecha on 10/3/25.
 //
 
 import SwiftUI
