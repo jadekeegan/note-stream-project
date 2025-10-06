@@ -11,7 +11,7 @@ import SwiftUI
 struct NoteStreamProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NoteView()
         }
     }
 }

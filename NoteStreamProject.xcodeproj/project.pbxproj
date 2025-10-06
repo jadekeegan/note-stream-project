@@ -29,9 +29,37 @@
 		4ECC81EB2E90583100BA7CB5 /* NoteStreamProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteStreamProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4E6FCDDE2E91CDD900C0505A /* Exceptions for "NoteStreamProject" folder in "NoteStreamProject" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				ContentView.swift,
+				Notes/NoteCanvasView.swift,
+				Notes/NoteView.swift,
+				Notes/NoteViewModel.swift,
+				NoteStreamProjectApp.swift,
+			);
+			target = 4ECC81D32E90582D00BA7CB5 /* NoteStreamProject */;
+		};
+		4E6FCDDF2E91CDD900C0505A /* Exceptions for "NoteStreamProject" folder in "NoteStreamProjectUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				ContentView.swift,
+				NoteStreamProjectApp.swift,
+			);
+			target = 4ECC81EA2E90583100BA7CB5 /* NoteStreamProjectUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		4ECC81D62E90582D00BA7CB5 /* NoteStreamProject */ = {
+		4E6FCDD92E91CDD900C0505A /* NoteStreamProject */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4E6FCDDE2E91CDD900C0505A /* Exceptions for "NoteStreamProject" folder in "NoteStreamProject" target */,
+				4E6FCDDF2E91CDD900C0505A /* Exceptions for "NoteStreamProject" folder in "NoteStreamProjectUITests" target */,
+			);
 			path = NoteStreamProject;
 			sourceTree = "<group>";
 		};
@@ -75,7 +103,7 @@
 		4ECC81CB2E90582D00BA7CB5 = {
 			isa = PBXGroup;
 			children = (
-				4ECC81D62E90582D00BA7CB5 /* NoteStreamProject */,
+				4E6FCDD92E91CDD900C0505A /* NoteStreamProject */,
 				4ECC81E42E90583100BA7CB5 /* NoteStreamProjectTests */,
 				4ECC81EE2E90583100BA7CB5 /* NoteStreamProjectUITests */,
 				4ECC81D52E90582D00BA7CB5 /* Products */,
@@ -106,9 +134,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				4ECC81D62E90582D00BA7CB5 /* NoteStreamProject */,
 			);
 			name = NoteStreamProject;
 			packageProductDependencies = (
@@ -154,6 +179,7 @@
 				4ECC81ED2E90583100BA7CB5 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
+				4E6FCDD92E91CDD900C0505A /* NoteStreamProject */,
 				4ECC81EE2E90583100BA7CB5 /* NoteStreamProjectUITests */,
 			);
 			name = NoteStreamProjectUITests;
